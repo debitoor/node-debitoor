@@ -1,0 +1,19 @@
+{
+  "name": "debitoor",
+  "version": "0.0.1",
+  "description": "Small request wrapper that makes it easy to work with the debitoor.com API",
+  "main": "index.js",
+  "dependencies": { 
+    "request": "~2.27.0"
+  },
+  "repository": "git://github.com/e-conomic/node-debitoor",
+  "keywords": [
+    "debitoor",
+    "api",
+    "rest",
+    "request"
+  ],
+  "author": "e-conomic international a/s",
+  "license": "BSD",
+  "readmeFilename": "readme.md"
+}
