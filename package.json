@@ -15,7 +15,8 @@
   ],
   "author": "e-conomic international a/s",
   "maintainers": [
-    "jmosbech <jmo@e-conomic.com>"
+    "jmosbech <jmo@e-conomic.com>",
+    "mafintosh <mathiasbuus@gmail.com>"
   ],
   "license": "BSD",
   "readmeFilename": "readme.md"
