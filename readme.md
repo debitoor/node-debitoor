@@ -2,6 +2,12 @@
 This small module wraps [`request`](https://github.com/mikeal/request) in order to provide easy access to the [Debitoor REST API](https://api.debitoor.com/api).
 
 ## Usage ##
+Install via npm:
+
+```
+npm install debitoor
+```
+
 Use it like you would use `request`. The main difference is that you only have to specify relative URLs and that authentication is handled for you. Just provide a valid access token and you're ready to go:
 
 ```js
