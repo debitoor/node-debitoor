@@ -21,8 +21,8 @@ debitoor('/customers', function (error, response, body) {
 ```
 
 ## Getting Access ##
-In order to get access to the API you need to register an app with Debitoor ([contact us!](mailto:team@debitoor.com)). With that in place you need to run your users through an OAuth2 flow in order to obtain an access_token that you can use to interact with their data.
+In order to get access to the API you first need to [register an app](https://github.com/e-conomic/debitoor-api#registration). With that in place you need to run your users through an [OAuth2](https://github.com/e-conomic/debitoor-api/blob/master/pages/authentication.md) flow in order to obtain an `access_token` that you can use to interact with their data.
 
 
 ## API Documentation ##
-The Debitoor REST API documenation can be found here: https://api.debitoor.com/api
+The general Debitoor REST API documenation can be found here: https://github.com/e-conomic/debitoor-api
