@@ -1,6 +1,6 @@
 {
   "name": "debitoor",
-  "version": "0.0.2",
+  "version": "1.1.0",
   "description": "Small request wrapper that makes it easy to work with the debitoor.com API",
   "main": "index.js",
   "dependencies": { 
@@ -16,7 +16,8 @@
   "author": "e-conomic international a/s",
   "maintainers": [
     "jmosbech <jmo@e-conomic.com>",
-    "mafintosh <mathiasbuus@gmail.com>"
+    "mafintosh <mathiasbuus@gmail.com>",
+    "eagleeye <eagleeyes91@gmail.com>"
   ],
   "license": "BSD",
   "readmeFilename": "readme.md"
