@@ -3,7 +3,7 @@ var request = require('request');
 module.exports = function(token) {
 	return request.defaults({}, function(options, callback) {
 		if (options.uri[0] === '/') {
-			options.uri = 'https://api.debitoor.com/api/'+options.uri;
+			options.uri = 'https://api.debitoor.com/api' + options.uri;
 		}
 		options.jar = false;
 		options.headers = options.headers || {};
