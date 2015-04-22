@@ -2,6 +2,10 @@ var request = require('request');
 
 module.exports = function(token) {
 	return request.defaults({}, function(options, callback) {
+		if (options.url) {
+			options.uri = options.url;
+			delete options.url;
+		}
 		if (options.uri[0] === '/') {
 			options.uri = 'https://api.debitoor.com/api' + options.uri;
 		}

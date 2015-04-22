@@ -3,8 +3,8 @@
   "version": "1.1.0",
   "description": "Small request wrapper that makes it easy to work with the debitoor.com API",
   "main": "index.js",
-  "dependencies": { 
-    "request": "~2.27.0"
+  "dependencies": {
+    "request": "~2.55.0"
   },
   "repository": "git://github.com/e-conomic/node-debitoor",
   "keywords": [
