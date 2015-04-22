@@ -1,4 +1,4 @@
-# debitoor #
+# debitoor # [![npm version](https://badge.fury.io/js/debitoor.svg)](http://badge.fury.io/js/debitoor) [![Dependency Status](https://david-dm.org/e-conomic/node-debitoor.svg)](https://david-dm.org/e-conomic/node-debitoor)
 This small module wraps [`request`](https://github.com/mikeal/request) in order to provide easy access to the [Debitoor REST API](https://api.debitoor.com/api).
 
 ## Usage ##
