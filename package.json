@@ -1,6 +1,6 @@
 {
   "name": "debitoor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Small request wrapper that makes it easy to work with the debitoor.com API",
   "main": "index.js",
   "dependencies": {
