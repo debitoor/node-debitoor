@@ -1,7 +1,9 @@
-# debitoor # [![npm version](https://badge.fury.io/js/debitoor.svg)](http://badge.fury.io/js/debitoor) [![Dependency Status](https://david-dm.org/e-conomic/node-debitoor.svg)](https://david-dm.org/e-conomic/node-debitoor)
+debitoor [![npm version](https://badge.fury.io/js/debitoor.svg)](http://badge.fury.io/js/debitoor) [![Dependency Status](https://david-dm.org/e-conomic/node-debitoor.svg)](https://david-dm.org/e-conomic/node-debitoor)
+========
 This small module wraps [`request`](https://github.com/mikeal/request) in order to provide easy access to the [Debitoor REST API](https://api.debitoor.com/api).
 
 ## Usage ##
+
 Install via npm:
 
 ```
@@ -15,7 +17,7 @@ var access_token = 'your-token';
 
 var debitoor = require('debitoor')(access_token);
 
-debitoor('/customers', function (error, response, body) {
+debitoor('/customers/v1', function (error, response, body) {
 	console.log(body);
 });
 ```
