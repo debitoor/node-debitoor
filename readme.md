@@ -23,8 +23,8 @@ debitoor('/customers/v1', function (error, response, body) {
 ```
 
 ## Getting Access ##
-In order to get access to the API you first need to [register an app](https://github.com/debitoor/debitoor-api#registration). With that in place you need to run your users through an [OAuth2](https://github.com/debitoor/debitoor-api/blob/master/pages/authentication.md) flow in order to obtain an `access_token` that you can use to interact with their data.
+In order to get access to the API you first need to [register an app](https://github.com/debitoor/debitoor-api-docs#registration). With that in place you need to run your users through an [OAuth2](https://github.com/debitoor/debitoor-api-docs/blob/master/pages/authentication.md) flow in order to obtain an `access_token` that you can use to interact with their data.
 
 
 ## API Documentation ##
-The general Debitoor REST API documenation can be found here: https://github.com/debitoor/debitoor-api
+The general Debitoor REST API documenation can be found here: https://github.com/debitoor/debitoor-api-docs
