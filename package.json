@@ -6,17 +6,15 @@
   "dependencies": {
     "request": "~2.55.0"
   },
-  "repository": "git://github.com/e-conomic/node-debitoor",
+  "repository": "git://github.com/debitoor/node-debitoor",
   "keywords": [
     "debitoor",
     "api",
     "rest",
     "request"
   ],
-  "author": "e-conomic international a/s",
+  "author": "debitoor",
   "maintainers": [
-    "jmosbech <jmo@e-conomic.com>",
-    "mafintosh <mathiasbuus@gmail.com>",
     "eagleeye <eagleeyes91@gmail.com>"
   ],
   "license": "BSD",
