@@ -22,4 +22,4 @@ debitoor('/customers/v1', function (error, response, body) {
 });
 ```
 ## API Documentation ##
-The general Debitoor REST API documentaion can be found here: [https://developers.debitoor.com]https://developers.debitoor.com
+The general Debitoor REST API documentaion can be found here: https://developers.debitoor.com
