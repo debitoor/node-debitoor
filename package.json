@@ -4,9 +4,12 @@
   "description": "Small request wrapper that makes it easy to work with the debitoor.com API",
   "main": "index.js",
   "dependencies": {
-    "request": "~2.55.0"
+    "request": "^2.81.0"
   },
-  "repository": "git://github.com/debitoor/node-debitoor",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/debitoor/node-debitoor.git"
+  },
   "keywords": [
     "debitoor",
     "api",
@@ -17,6 +20,12 @@
   "maintainers": [
     "eagleeye <eagleeyes91@gmail.com>"
   ],
-  "license": "BSD",
-  "readmeFilename": "readme.md"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debitoor/node-debitoor/issues"
+  },
+  "homepage": "https://github.com/debitoor/node-debitoor#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
